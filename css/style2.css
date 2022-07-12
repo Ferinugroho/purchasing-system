@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #FFF;
+}
+.container{
+	border: 5px #FFFFFF solid;
+}
+#header{
+	background:#093;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+#sidebar{
+	min-height: 300px;
+	padding: 5px 20px 20px 20px;
+	
+}
+
+#content{
+	background: #EEE;
+	min-height: 520px;
+	padding: 10px 20px 20px 20px;
+}
+#footer{
+	background: #093;
+	padding: 20px 20px 10px 20px;
+}
+.navbar{
+	border: 0px;
+}
+.navbar-default{
+	background:none;
+}
+.navbar-default .navbar-brand {
+	color: #FFF;
+	font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+	font-size: 16px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8,176,44);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #27ee4d;
+	background-color: transparent;
+}
+table th{
+	background-color: #090;
+	color: #fff;
+}
+#footer{
+	color: #FFF;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #FFF; 
+    background-color: #bc9a25; 
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #27ee4d;
+}
+.form-group input{
+	border-radius: 0px;
+}
+.btn{
+	border-radius: 0px;
+}
+#graph-content{
+	text-align: center;
+	overflow: hidden;
+}
+
